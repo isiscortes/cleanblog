@@ -32,8 +32,6 @@ header p{
 }
 
 footer{
-
-    background-color:white;   
     text-align: center; 
 }
 
@@ -47,11 +45,6 @@ footer{
 
 }
 
-.fondogris{
-	background-color: #696969;
-	color: white;
-}
-
 i{
-	color: white;
+	border-radius: 40%;	
 }
