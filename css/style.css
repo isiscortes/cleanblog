@@ -12,6 +12,16 @@ header{
 	color: white;
 }
 
+.contact{
+	background-image: url(../img/contact-bg.jpg);
+	height: 500px;
+	background-size: 100% 100%;
+	color: white;
+
+}
+
+
+
 h1{
 	text-align: center;
 	margin-top: 10%;
