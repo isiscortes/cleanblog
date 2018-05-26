@@ -1,0 +1,57 @@
+header{
+	background-image: url(../img/home-bg.jpg);
+	height: 500px;
+	background-size: 100% 100%;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	margin-top: 10%;
+	color: white;
+}
+
+header p{
+	text-align: center;
+	color: white;
+}
+
+.opacidad{
+	background-color: 0, 0 ,0 ,0.5 black);
+	width: 100%;
+	height: 500px;
+}
+
+.txt_sm{
+	font-size: 5px;
+}
+
+.bold{
+	font-weight: bold;
+	text-align: left;
+}
+
+footer{
+
+    background-color:white;   
+    text-align: center; 
+}
+
+
+
+.bloquefooter{
+
+    display: inline-block;
+
+
+
+}
+
+.fondogris{
+	background-color: #696969;
+	color: white;
+}
+
+i{
+	color: white;
+}
