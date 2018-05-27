@@ -25,6 +25,16 @@
 
 }
 
+h2{
+	text-align: center;
+}
+.posts{
+	background-image: url(../img/post-bg.jpg);
+	height: 500px;
+	width: 100%;
+	background-size: 100% 100%;
+	color: white;
+}
 
 .opacidad{
 
@@ -112,4 +122,11 @@ i{
 	display: block !important;
 	margin: auto !important;
 	margin-right: 10% !important;
+}
+
+.resize{
+	width: 80%;
+	padding: 0px;
+	display: block;
+	margin: auto;
 }
