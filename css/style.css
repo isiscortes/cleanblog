@@ -1,4 +1,8 @@
-header{
+.container-fluid{
+	padding-left: 0px !important;
+}
+
+.fondoheader{
 	background-image: url(../img/home-bg.jpg);
 	height: 500px;
 	background-size: 100% 100%;
@@ -8,6 +12,7 @@ header{
 .about{
 	background-image: url(../img/about-bg.jpg);
 	height: 500px;
+	width: 100%;
 	background-size: 100% 100%;
 	color: white;
 }
@@ -21,14 +26,29 @@ header{
 }
 
 
+.opacidad{
+
+	background-color: rgba(0,0,0,0.5);
+
+	height: 500px;
+
+}
+
+.bg-light{
+	background: transparent !important;
+}
 
 h1{
 	text-align: center;
-	margin-top: 10%;
 	color: white;
 }
 
-header p{
+p{
+	color: black;
+	text-align: center;
+}
+
+.txt_blanco{
 	text-align: center;
 	color: white;
 }
@@ -40,12 +60,13 @@ header p{
 }
 
 .txt_sm{
-	font-size: 5px;
+	font-size: 0.6em;
 }
 
 .bold{
 	font-weight: bold;
 	text-align: left;
+	color: white;
 }
 
 footer{
@@ -53,15 +74,42 @@ footer{
 }
 
 
-
 .bloquefooter{
-
     display: inline-block;
-
-
-
 }
 
 i{
 	border-radius: 40%;	
+}
+
+.navbar-brand{
+	color: white !important;
+}
+
+.footer{
+	padding: 2%;
+	text-align: center;
+	color: black;
+	background-color: white;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.padding{
+	padding: 15%;
+}
+
+.formato{
+	padding-top: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+}
+
+
+.btn{
+	display: block !important;
+	margin: auto !important;
+	margin-right: 10% !important;
 }
